@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+.btn{
+    text-decoration: none;
+    background: #fd6e0a;
+    border-radius: 5px;
+    padding: 15px 18px;
+    color: #ffff;
+    font-size: 19px;
+   transition: all .4s;
+}
+.width-p{
+    width: 80%;
+    margin:  0 auto;
+}
+.container{
+   
+    background:#fff8f3;
+    background-image: url(images/header_bg.png), url(images/dsffsa1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+   /* padding: 30px 0;
+   height: 100vh; */
+  
+   
+   
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+   width: 80%;
+   margin:  auto;
+   
+}
+.header-top-left a{
+    font-size: 45px;
+    color: #000;
+    text-decoration: none;
+}
+.shamim{
+    color: rgb(253, 110, 10)
+    ;
+}
+
+/* End */
+
+
+.header-top-right{
+    
+}
+.header-top-right ul{ 
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}
+.header-top-right ul li{ 
+    list-style: none;
+    margin: 0 17px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.header-top-right ul li a{ 
+    text-decoration: none;
+    background: #fd6e0a;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: #ffff;
+
+}
+
+
+/* End  */
+
+
+.header-banner-list{
+    display: flex;
+    align-items: center;
+    /* margin: 20px 0; */
+}
+.banner-left{
+    width: 50%;
+}
+.banner-left h2{
+font-weight: 500;
+font-size: 45px;
+margin: 15px 0;
+
+}
+.banner-left h1{
+font-weight: 600;
+font-size: 65px;
+margin: 15px 0;
+}
+.banner-left p{
+font-weight: 400;
+font-size: 20px;
+color: rgb(117, 117, 117);
+width: 75%;
+margin-bottom: 35px;
+}
+.banner-left a:hover{
+    background: orangered;
+}
+.banner-right{
+    width: 50%;
+}
+.banner-right img{
+    width: 90%;
+}
+
+
+/* End */
+
+
+/* About Section CSS */
+
+
+.about{
+    width: 80%;
+    margin: 110px auto;
+    padding: 70px 0px;
+    text-align: center;
+    background: #fff8f3;
+}
+.about h1{
+    margin-bottom: 20px;
+}
+.about p{
+    width: 65%;
+    margin: 0  auto;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+/* End */
+
+
+
+.about-lists{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 15px 20px;
+    align-items: center;
+    font-weight: 700;
+    
+}.about-list{
+    padding: 30px 0;
+    align-self: center;
+    font-weight: 700;
+}
+.about-list p{
+    text-align: center;
+}
+.about-list h4{
+    
+}
+
+
+/* End About */
+
+
+/* Start Card */
+
+.what-div{
+    padding-bottom: 100px ;
+    
+}
+.what-div h1{
+    text-align: center;
+    padding: 50px 0;
+}
+.what-card{
+    margin-top: 20px;
+    display: flex;
+    /* width: 20%; */
+    justify-content: space-evenly;
+}
+.what-card-one{
+    box-shadow: 8px 8px 10px #423b3b;
+    padding: 25px 19px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border-left: 5px solid;
+  border-image: linear-gradient(40deg, salmon, blue) 1;
+    
+    
+}
+.card-img{
+    margin-bottom: 10px;
+}
+
+.card-text h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-text p{
+font-size: 18px;
+color: rgb(117, 117, 117);
+}
+
+/* End Card Design */
+
+
+/* Start Resume Design */
+
+.resume-summary{
+    padding-bottom: 35px;
+}
+.resume-summary h1{
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: 700;
+}
+.resumes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.resumes-left{
+    border-bottom: 3px solid #363f3b;
+    margin: 0 20px;
+}
+
+.resumes-left h3{
+    font-weight: 700;
+    color: #4b4949;
+}
+.resumes-left h2{
+    color: #241a1a;
+    margin: 15px 0;
+    font-size: 30px;
+}
+
+.resumes-left h5{
+    color: #807777;
+    font-size: 18px;
+}
+
+.resumes-left p{
+    color: #807777;
+    margin: 15px 0;
+}
+
+.resume-btn{
+ margin: 40px 0;
+ text-align: center;
+}
+.resume-btn a{
+    transition: all .4s;
+}
+.resume-btn a:hover{
+    background: rgb(17, 124, 89);
+    font-weight: 800;
+}
+
+/* resume End */
+
+/* Form Start CSS */
+.form-full{
+    display: flex;
+
+    
+}
+.form-left-txt{
+    width: 50%;
+    margin-right: 100px;
+}
+
+/* Form End CSS */
