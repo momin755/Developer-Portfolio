@@ -18,6 +18,7 @@ body{
     color: #ffff;
     font-size: 19px;
    transition: all .4s;
+   cursor: pointer;
 }
 .width-p{
     width: 80%;
@@ -59,9 +60,7 @@ body{
 /* End */
 
 
-.header-top-right{
-    
-}
+
 .header-top-right ul{ 
     display: flex;
     align-items: center;
@@ -135,7 +134,7 @@ margin-bottom: 35px;
     margin: 110px auto;
     padding: 70px 0px;
     text-align: center;
-    background: #fff8f3;
+    background: #f0e1d7;
 }
 .about h1{
     margin-bottom: 20px;
@@ -169,7 +168,8 @@ margin-bottom: 35px;
     text-align: center;
 }
 .about-list h4{
-    
+    font-size: 22px;
+    margin-top: -10px;
 }
 
 
@@ -275,14 +275,60 @@ color: rgb(117, 117, 117);
 /* resume End */
 
 /* Form Start CSS */
+
+.form-fully{
+    margin: 50px 0;
+}
 .form-full{
     display: flex;
-
-    
+    background: #f0e1d7;
+    border-radius: 5px;
+    padding: 40px;
+    align-items: center;
 }
 .form-left-txt{
     width: 50%;
     margin-right: 100px;
 }
 
+.form-left-txt p{
+    margin: 20px 0;
+    width: 60%;
+}
+.icons-style{
+    padding: 20px 0;
+}
+.icons-style a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0px 15px;
+    color: #fd6e0a;
+    transition: all .4s;
+}
+.icons-style a:hover{
+    color: #ff9f5a;
+}
+
+input{
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+textarea{
+    margin-top: 10px;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+.form-right-form h1{
+    margin-bottom: 20px;
+}
+.form-right-form label{
+    font-size: 19px;
+    font-weight: 600;
+    color: #504545;
+}
 /* Form End CSS */
